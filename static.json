@@ -1,0 +1,8 @@
+{
+  "headers": {
+    "/*": {
+      "X-Author": "nikolay.safonov.48",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
