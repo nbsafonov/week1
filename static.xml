@@ -1,17 +1,1 @@
-server {
- listen 443 ssl;
- server_name example.com;
 
- root /var/www/html;
- index index.html;
-
- ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
- ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
-
- location / {
- return 200 'nikolay.safonov.48';
- }
-}
-
-add_header X-Author nikolay.safonov.48;
-access_control_allow_origin '*';
